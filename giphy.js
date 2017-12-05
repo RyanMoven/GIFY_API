@@ -1,6 +1,6 @@
 $(document ).ready(function(){
 
-	var foodList = [];
+	var foodList = []; // SEE BELOW FOR WHAT Is MISSING
 
 
 function foodDisplay() {
@@ -57,6 +57,10 @@ $("#find-food").on("click", function(event) {
 
 
 }); //end of document ready
+
+//needs to append images into food-view div
+//needs to list rating and append to items in array
+//Doesn't append userFood to button for some reason
 
 
   
